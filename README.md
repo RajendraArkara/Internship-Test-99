@@ -17,3 +17,8 @@ Penanganan Dependency: Program memastikan setiap file SQL dieksekusi sesuai deng
 ## Cara menjalankan code:
 Buka link google collab ini, google collab: https://colab.research.google.com/drive/1_vvuj4j_mG-1l14POxPMh6OW96Zm_GGY?usp=sharing
 
+## Depedensi:
+Tidak ada dependensi eksternal selain Python
+
+## File SQL:
+File SQL yang digunakan terdapat di dalam folder sql.
