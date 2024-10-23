@@ -1,24 +1,25 @@
 # INTERNSHIP TEST
 
-Repository ini berisi solusi untuk tes teknis Internship Data Engineering di 99 Group.
+This repository contains solutions for the technical test of the Data Engineering Internship at 99 Group.
 
-## Deskripsi
+## Description
 
-Pada project ini, saya mengembangkan sistem pipeline ELT (Extract, Load, Transform) dengan melakukan eksekusi urutan SQL file yang benar berdasarkan dependensinya. Sistem ini dirancang untuk membersihkan, mentransformasi, dan menggabungkan data dari beberapa tabel source ke dalam table final di data warehouse.
+In this project, I developed an **ELT (Extract, Load, Transform)** pipeline system by executing the correct sequence of SQL files based on their dependencies. The system is designed to clean, transform, and consolidate data from multiple source tables into the final table in the data warehouse.
 
-## Langkah-Langkah:
+## Steps:
 
-Persiapan SQL File: Semua file SQL diurutkan berdasarkan dependency masing-masing. File SQL di folder source dan tmp akan dieksekusi terlebih dahulu sebelum file di folder final.
+**SQL File Preparation:** All SQL files are sorted based on their respective dependencies. The SQL files in the source and tmp folders are executed first, before those in the final folder.
 
-Eksekusi SQL: Simulasi dilakukan menggunakan fungsi time.sleep(2) untuk mengimitasi waktu eksekusi file SQL.
+**SQL Execution:** The simulation uses the time.sleep(2) function to mimic the execution time of SQL files.
 
-Penanganan Dependency: Program memastikan setiap file SQL dieksekusi sesuai dengan dependency-nya.
+**Dependency Handling:** The program ensures that each SQL file is executed in accordance with its dependencies.
 
-## Cara menjalankan code:
-Buka link google collab ini, google collab: https://colab.research.google.com/drive/1_vvuj4j_mG-1l14POxPMh6OW96Zm_GGY?usp=sharing
+## How to run the code:
 
-## Depedensi:
-Tidak ada dependensi eksternal selain Python
+**Google Colab Link**:  https://colab.research.google.com/drive/1_vvuj4j_mG-1l14POxPMh6OW96Zm_GGY?usp=sharing
 
-## File SQL:
-File SQL yang digunakan terdapat di dalam folder sql.
+## Depedency:
+There are no external dependencies aside from **Python**.
+
+## SQL File:
+The SQL files used are located in the **sql** folder.
